@@ -1,0 +1,24 @@
+{
+  "name": "staticserver",
+  "version": "1.0.0",
+  "description": "staticServer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "static"
+  ],
+  "bin": "./src/index.js",
+  "author": "likeju",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "handlebars": "^4.1.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "insurance_compress_js",
+  "version": "1.0.0",
+  "description": "压缩js",
+  "main": "detail.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --progress --watch --cache  --config webpack.start.js",
+    "build": "webpack  --mode production --config webpack.config.js"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "likeju",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  }
+}
